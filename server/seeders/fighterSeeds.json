@@ -1,0 +1,14 @@
+[
+    {
+        "universe":"",
+        "description":"",
+        "fighter": {
+            "name":"",
+            "strength":"",
+            "defense":"",
+            "Agility":"",
+            "will":"",
+            "chance":""
+        }
+    }
+]
