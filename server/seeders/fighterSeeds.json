@@ -2,7 +2,7 @@
     {
         "universe":"",
         "description":"",
-        "fighter": {
+        "fighters": {
             "name":"",
             "strength":"",
             "defense":"",
