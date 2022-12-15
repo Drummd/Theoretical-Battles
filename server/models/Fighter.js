@@ -1,6 +1,8 @@
 //Fighter Schema to the Universe Model
 const { Schema, model, Types } = require('mongoose');
 const bcrypt = require('bcrypt');
+const { processFileUploads } = require('apollo-server-core');
+const { GraphQLString } = require('graphql');
 
 
 const fighterSchema = new Schema({

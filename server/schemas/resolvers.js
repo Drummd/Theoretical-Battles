@@ -26,6 +26,12 @@ const resolvers = {
 			const fighters = await Fighter.findOne({ name: name}).populate('fighters');
 			return fighters;
 		},
+		fighters : async () => {
+			const fighters = await Fighter.find({})
+			console.log(fighters)
+			return fighters
+			
+		}
 
 	},
 
