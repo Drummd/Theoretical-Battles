@@ -1,14 +1,422 @@
 [
     {
-        "universe":"",
-        "description":"",
-        "fighters": {
-            "name":"",
-            "strength":"",
-            "defense":"",
-            "Agility":"",
-            "will":"",
-            "chance":""
-        }
+        "name": "Marvel",
+        "fighters": [
+            {
+                "character": "Black Panther",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F9%2F9f%2FBlack_Panther_OS_Vol_1_2.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBlack_Panther_(character)&tbnid=lpPdEBT37sywuM&vet=12ahUKEwjJsaW59fT7AhX8m44IHWOrAG8QMygAegUIARDeAQ..i&docid=sVzw-zr2XU8nHM&w=272&h=367&q=black%20panther%20character&ved=2ahUKEwjJsaW59fT7AhX8m44IHWOrAG8QMygAegUIARDeAQ",
+                "universe": "Marvel Universe",
+                "strength": 65,
+                "defense": 74,
+                "agility": 89,
+                "will": 35,
+                "chance": 15
+            },
+            {
+                "character": "Thor",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Flumiere-a.akamaihd.net%2Fv1%2Fimages%2Favengers-characterpose-thor_6f50eecc.png%3Fregion%3D0%252C0%252C164%252C280&imgrefurl=https%3A%2F%2Favengers.marvelhq.com%2Fcharacters%2Fthor&tbnid=8VFQbIxNQjtuSM&vet=12ahUKEwjrsezX4vX7AhVuNUQIHegWB2oQMygCegUIARDjAQ..i&docid=m2x2b5hsmtvutM&w=164&h=280&q=character%20Thor&hl=en&ved=2ahUKEwjrsezX4vX7AhVuNUQIHegWB2oQMygCegUIARDjAQ",
+                "universe": "Marvel Universe",
+                "strength": 85,
+                "defense": 60,
+                "agility": 60,
+                "will": 45,
+                "chance": 20
+            },
+            {
+                "character": "Spiderman",
+                "image": "",
+                "universe": "Marvel Universe",
+                "strength": 70,
+                "defense": 75,
+                "agility": 90,
+                "will": 55,
+                "chance": 12
+            },
+            {
+                "character": "Wolverine",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fcharacter-level%2Fimages%2F3%2F32%2FEarth616_PeterParker_Render_NoiseRemoval.png%2Frevision%2Flatest%2Fscale-to-width-down%2F400%3Fcb%3D20190825172909&imgrefurl=https%3A%2F%2Fcharacter-level.fandom.com%2Fwiki%2FSpider-Man_(Marvel_Comics)&tbnid=gQUaYU5cexCvKM&vet=12ahUKEwj6i8fm4vX7AhWDNEQIHREdBVYQMygBegUIARDkAQ..i&docid=pBRCO2a-56tmOM&w=400&h=403&q=character%20Spiderman&hl=en&ved=2ahUKEwj6i8fm4vX7AhWDNEQIHREdBVYQMygBegUIARDkAQ",
+                "universe": "Marvel Universe",
+                "strength": 85,
+                "defense": 50,
+                "agility": 65,
+                "will": 60,
+                "chance": 14
+            },
+            {
+                "character": "Captain America",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fcharacterprofile%2Fimages%2Ff%2Ffc%2FCap_render.png%2Frevision%2Flatest%3Fcb%3D20161227205959&imgrefurl=https%3A%2F%2Fcharacterprofile.fandom.com%2Fwiki%2FCaptain_America_(Steven_Rogers)&tbnid=fldj9ZX0GrGT5M&vet=12ahUKEwjqocqN4_X7AhXsAEQIHfVlDosQMygEegUIARDYAQ..i&docid=vjESV4oL0rX12M&w=438&h=784&q=character%20captain%20america&hl=en&ved=2ahUKEwjqocqN4_X7AhXsAEQIHfVlDosQMygEegUIARDYAQ",
+                "universe": "Marvel Universe",
+                "strength": 80,
+                "defense": 80,
+                "agility": 65,
+                "will": 60,
+                "chance": 20
+            },
+            {
+                "character": "Ultron",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fmoviemorgue%2Fimages%2Fb%2Fbd%2FUltron_MCU.png%2Frevision%2Flatest%3Fcb%3D20161115200005&imgrefurl=https%3A%2F%2Fmoviemorgue.fandom.com%2Fwiki%2FUltron_(Marvel_Cinematic_Universe)&tbnid=5vmHpvH6Cu-bSM&vet=12ahUKEwjMvZec4_X7AhW7NUQIHaUgBFgQMygBegUIARC6AQ..i&docid=1ozUs0xoSZIGxM&w=1194&h=2104&q=character%20%20ultron&hl=en&ved=2ahUKEwjMvZec4_X7AhW7NUQIHaUgBFgQMygBegUIARC6AQ",
+                "universe": "Marvel Universe",
+                "strength": 90,
+                "defense": 70,
+                "agility": 65,
+                "will": 15,
+                "chance": 10
+            },
+            {
+                "character": "Mysterio",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fvillains%2Fimages%2F9%2F9b%2FMysterio_Portrait_Art.png%2Frevision%2Flatest%3Fcb%3D20181018151132&imgrefurl=https%3A%2F%2Fvillains.fandom.com%2Fwiki%2FMysterio_(Marvel)&tbnid=T8rQx8ZRrHD0LM&vet=12ahUKEwifityn4_X7AhUnNUQIHQjqB2gQMygIegUIARDKAQ..i&docid=y98wvTpRIU_hfM&w=494&h=640&q=character%20%20Mysterio&hl=en&ved=2ahUKEwifityn4_X7AhUnNUQIHQjqB2gQMygIegUIARDKAQ",
+                "universe": "Marvel Universe",
+                "strength": 88,
+                "defense": 80,
+                "agility": 75,
+                "will": 30,
+                "chance": 13
+            },
+            {
+                "character": "Doctor Doom",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.writeups.org%2Fwp-content%2Fuploads%2FDoctor-Doom-Marvel-Comics-Fantastic-Four-f.jpg&imgrefurl=https%3A%2F%2Fwww.writeups.org%2Fdoctor-doom-marvel-comics%2F&tbnid=6CK2TOzQDOq_VM&vet=12ahUKEwjGs9q74_X7AhXYAkQIHWpBAn4QMygIegUIARDKAQ..i&docid=gF_J__MsiUMyzM&w=500&h=820&q=character%20%20Doctor%20Doom&hl=en&ved=2ahUKEwjGs9q74_X7AhXYAkQIHWpBAn4QMygIegUIARDKAQ",
+                "universe": "Marvel Universe",
+                "strength": 78,
+                "defense": 70,
+                "agility": 50,
+                "will": 55,
+                "chance": 10
+            },
+            {
+                "character": "Loki",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fcharacter-level%2Fimages%2F7%2F79%2FClassicLoki.png%2Frevision%2Flatest%2Fscale-to-width-down%2F350%3Fcb%3D20191201063210&imgrefurl=https%3A%2F%2Fcharacter-level.fandom.com%2Fwiki%2FLoki_(Marvel_Comics)_(Classic)&tbnid=H-4huVsTCkduAM&vet=12ahUKEwiP76vG4_X7AhW-DUQIHajfC20QMyhHegUIARCFAQ..i&docid=dbqYbzJPAGXe_M&w=350&h=678&q=character%20%20Loki&hl=en&ved=2ahUKEwiP76vG4_X7AhW-DUQIHajfC20QMyhHegUIARCFAQ",
+                "universe": "Marvel Universe",
+                "strength": 76,
+                "defense": 68,
+                "agility": 70,
+                "will": 65,
+                "chance": 7
+            },
+            {
+                "character": "Thanos",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.comicvine.com%2Fuploads%2Foriginal%2F0%2F394%2F77995-21433-thanos.png&imgrefurl=https%3A%2F%2Fcomicvine.gamespot.com%2Fthanos%2F4005-7607%2F&tbnid=8FKZeFeXXshhdM&vet=12ahUKEwiy_4jj4_X7AhUnBkQIHSJCDmEQMygWegUIARDtAQ..i&docid=j-rOZHWsIJkVuM&w=400&h=451&q=character%20%20Thanos&hl=en&ved=2ahUKEwiy_4jj4_X7AhUnBkQIHSJCDmEQMygWegUIARDtAQ",
+                "universe": "Marvel Universe",
+                "strength": 92,
+                "defense": 88,
+                "agility": 45,
+                "will": 45,
+                "chance": 8
+            }
+        ]
+    },
+    {
+        "name": "DC",
+        "fighters": [
+            {
+                "character": "Batman",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fcharacter-level%2Fimages%2Fc%2Fc6%2FBatman_Post-Flashpoint.png%2Frevision%2Flatest%2Fscale-to-width-down%2F400%3Fcb%3D20190404152717&imgrefurl=https%3A%2F%2Fcharacter-level.fandom.com%2Fwiki%2FBatman_(Post-Flashpoint)&tbnid=hRKbnsNce0qnmM&vet=12ahUKEwjO37Ty4_X7AhX0M0QIHacEC5sQMygAegUIARDfAQ..i&docid=d49bh4K6tlAZ4M&w=400&h=716&q=character%20%20Batman&hl=en&ved=2ahUKEwjO37Ty4_X7AhX0M0QIHacEC5sQMygAegUIARDfAQ",
+                "universe": "DC Universe",
+                "strength": 85,
+                "defense": 78,
+                "agility": 88,
+                "will": 50,
+                "chance": 20
+            },
+            {
+                "character": "Green Arrow",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F1%2F1f%2FGreen_Arrow_%2528circa_2021%2529.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGreen_Arrow&tbnid=u785siI9mt077M&vet=12ahUKEwiP8OWB5PX7AhWxB0QIHbZAD2MQMygAegUIARC2AQ..i&docid=vut70GhS4npOEM&w=258&h=370&q=character%20%20Green%20Arrow&hl=en&ved=2ahUKEwiP8OWB5PX7AhWxB0QIHbZAD2MQMygAegUIARC2AQ",
+                "universe": "DC Universe",
+                "strength": 77,
+                "defense": 69,
+                "agility": 80,
+                "will": 45,
+                "chance": 15
+            },
+            {
+                "character": "Blue Beetle",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fmarvel_dc%2Fimages%2F6%2F60%2FBlue_Beetle_002.jpg%2Frevision%2Flatest%3Fcb%3D20170322223353&imgrefurl=https%3A%2F%2Fdc.fandom.com%2Fwiki%2FJaime_Reyes_(New_Earth)&tbnid=MHXhN7ie2_WzKM&vet=12ahUKEwjRjpaM5PX7AhX_CkQIHdtdBWMQMygCegUIARC-AQ..i&docid=yposSAXS_T8fPM&w=640&h=960&q=character%20%20Blue%20Beetle&hl=en&ved=2ahUKEwjRjpaM5PX7AhX_CkQIHdtdBWMQMygCegUIARC-AQ",
+                "universe": "DC Universe",
+                "strength": 80,
+                "defense": 77,
+                "agility": 85,
+                "will": 45,
+                "chance": 12
+            },
+            {
+                "character": "Aquaman",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcomicvine.gamespot.com%2Fa%2Fuploads%2Fscale_small%2F12%2F124259%2F6813787-732893_589a6c3085173ec7e7877d12a86293fede9c7f36.jpg&imgrefurl=https%3A%2F%2Fcomicvine.gamespot.com%2Faquaman%2F4005-2357%2F&tbnid=P5NoiAxqG4dB9M&vet=10CIcBEDMoogFqFwoTCLCdm5nk9fsCFQAAAAAdAAAAABAD..i&docid=S_l3PL1XgSwBvM&w=421&h=640&q=character%20Aqua%20Man&hl=en&ved=0CIcBEDMoogFqFwoTCLCdm5nk9fsCFQAAAAAdAAAAABAD",
+                "universe": "DC Universe",
+                "strength": 85,
+                "defense": 75,
+                "agility": 70,
+                "will": 30,
+                "chance": 16
+            },
+            {
+                "character": "Cyborg",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fcharacter-level%2Fimages%2F4%2F49%2FCyborgRebirth.png%2Frevision%2Flatest%2Fscale-to-width-down%2F400%3Fcb%3D20190306185150&imgrefurl=https%3A%2F%2Fcharacter-level.fandom.com%2Fwiki%2FCyborg_(Post-Flashpoint)&tbnid=UONdBdJr5E06wM&vet=12ahUKEwjytOux5PX7AhWaNUQIHbJcDWUQMygCegUIARDCAQ..i&docid=kNs6eMGEamEARM&w=400&h=555&q=character%20cyborg&hl=en&ved=2ahUKEwjytOux5PX7AhWaNUQIHbJcDWUQMygCegUIARDCAQ",
+                "universe": "DC Universe",
+                "strength": 88,
+                "defense": 80,
+                "agility": 58,
+                "will": 40,
+                "chance": 11
+            },
+            {
+                "character": "Clayface",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fmarvel_dc%2Fimages%2F1%2F18%2FBatman_The_Dark_Knight_Vol_2_23.3_Clayface_Textless.jpg%2Frevision%2Flatest%3Fcb%3D20130918210941&imgrefurl=https%3A%2F%2Fdc.fandom.com%2Fwiki%2FBasil_Karlo_(Prime_Earth)&tbnid=eozih1DHiWRAqM&vet=12ahUKEwjOyui-5PX7AhX-CUQIHcu1C9oQMygAegUIARC2AQ..i&docid=EDz9AaHZXw8S6M&w=1500&h=2278&q=character%20clayface&hl=en&ved=2ahUKEwjOyui-5PX7AhX-CUQIHcu1C9oQMygAegUIARC2AQ",
+                "universe": "DC Universe",
+                "strength": 90,
+                "defense": 48,
+                "agility": 50,
+                "will": 45,
+                "chance": 18
+            },
+            {
+                "character": "Deathstroke",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.fightersgeneration.com%2Fcharacters4%2Fdeathstroke-super2.jpg&imgrefurl=https%3A%2F%2Fwww.fightersgeneration.com%2Fcharacters4%2Fdeathstroke.html&tbnid=U74dSHghgH63qM&vet=10CEgQMyiIAWoXChMImIGLzOT1-wIVAAAAAB0AAAAAEAM..i&docid=0LRRHGCWZWSFWM&w=221&h=300&q=character%20Deathstroke&hl=en&ved=0CEgQMyiIAWoXChMImIGLzOT1-wIVAAAAAB0AAAAAEAM",
+                "universe": "DC Universe",
+                "strength": 82,
+                "defense": 80,
+                "agility": 75,
+                "will": 40,
+                "chance": 12
+            },
+            {
+                "character": "Lex Luthor",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.tvtropes.org%2Fpmwiki%2Fpub%2Fimages%2Flex_890.png&imgrefurl=https%3A%2F%2Ftvtropes.org%2Fpmwiki%2Fpmwiki.php%2FCharacters%2FSupermanLexLuthor&tbnid=Cf3fQF0xqSAjrM&vet=12ahUKEwjBrvzu5PX7AhWjB0QIHZdqDWEQMygBegUIARDBAQ..i&docid=bPbgx7JbQqt9wM&w=350&h=423&q=character%20Lex%20Luthor&hl=en&ved=2ahUKEwjBrvzu5PX7AhWjB0QIHZdqDWEQMygBegUIARDBAQ",
+                "universe": "DC Universe",
+                "strength": 80,
+                "defense": 70,
+                "agility": 56,
+                "will": 50,
+                "chance": 20
+            },
+            {
+                "character": "Trigon",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F2%2F26%2FTrigon_%2528The_New_52_version%2529.jpg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTrigon_(comics)&tbnid=cQp0Ow3zyljDmM&vet=12ahUKEwjpiaf65PX7AhVQCUQIHUVkCm8QMygAegUIARCyAQ..i&docid=K0K6A4m0B-UeEM&w=257&h=392&q=character%20trigon&hl=en&ved=2ahUKEwjpiaf65PX7AhVQCUQIHUVkCm8QMygAegUIARCyAQ",
+                "universe": "DC Universe",
+                "strength": 95,
+                "defense": 80,
+                "agility": 39,
+                "will": 25,
+                "chance": 10
+            },
+            {
+                "character": "Brainiac",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdnb.artstation.com%2Fp%2Fassets%2Fimages%2Fimages%2F006%2F436%2F251%2Flarge%2Fbogdan-marica-bogdanmrk-brainiac-injustice-2.jpg%3F1498579266&imgrefurl=https%3A%2F%2Fwww.artstation.com%2Fartwork%2Fzqkym&tbnid=e541D4u9g7NHnM&vet=12ahUKEwjAl9uE5fX7AhXcAEQIHbhYBMQQMygNegUIARDeAQ..i&docid=wJeeeV3MjDKOEM&w=900&h=1345&q=characterBainiac&hl=en&ved=2ahUKEwjAl9uE5fX7AhXcAEQIHbhYBMQQMygNegUIARDeAQ",
+                "universe": "DC Universe",
+                "strength": 85,
+                "defense": 77,
+                "agility": 50,
+                "will": 40,
+                "chance": 20
+            }
+        ]
+    },
+    {
+        "name": "StarWars",
+        "fighters": [
+            {
+                "character": "Yoda",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fp__%2Fimages%2F5%2F5f%2FYoda.png%2Frevision%2Flatest%3Fcb%3D20150617205408%26path-prefix%3Dprotagonist&imgrefurl=https%3A%2F%2Fhero.fandom.com%2Fwiki%2FYoda&tbnid=y8X8hUCf2NOuDM&vet=12ahUKEwjNhIuU5fX7AhX8D0QIHVBAB34QMygBegUIARDFAQ..i&docid=6YpI46It5_3luM&w=540&h=720&q=character%20yoda&hl=en&ved=2ahUKEwjNhIuU5fX7AhX8D0QIHVBAB34QMygBegUIARDFAQ",
+                "universe": "StarWars Universe",
+                "strength": 88,
+                "defense": 88,
+                "agility": 70,
+                "will": 25,
+                "chance": 15
+            },
+            {
+                "character": "Anakin",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fstarwars%2Fimages%2F6%2F6f%2FAnakin_Skywalker_RotS.png%2Frevision%2Flatest%3Fcb%3D20130621175844&imgrefurl=https%3A%2F%2Fstarwars.fandom.com%2Fwiki%2FAnakin_Skywalker&tbnid=lpcb6oWiWIVRWM&vet=12ahUKEwii57Kb5fX7AhXaCEQIHWRvD2oQMygAegUIARC7AQ..i&docid=cEgc5kpOz5fodM&w=819&h=1024&q=character%20anakin&hl=en&ved=2ahUKEwii57Kb5fX7AhXaCEQIHWRvD2oQMygAegUIARC7AQ",
+                "universe": "StarWars Universe",
+                "strength": 90,
+                "defense": 75,
+                "agility": 85,
+                "will": 20,
+                "chance": 14
+            },
+            {
+                "character": "Kit Fisto",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fswfanon%2Fimages%2Fd%2Fdb%2FKit_Fisto.jpg%2Frevision%2Flatest%3Fcb%3D20091203193502&imgrefurl=https%3A%2F%2Fswfanon.fandom.com%2Fwiki%2FKit_Fisto_(Powerstaark)&tbnid=1lqGOF9eNMI6_M&vet=12ahUKEwjN2Yuk5fX7AhXEUIwKHbXhCN4QMygIegUIARDIAQ..i&docid=zP-stXV0_qrqlM&w=290&h=406&q=character%20Kit%20Fisto&hl=en&ved=2ahUKEwjN2Yuk5fX7AhXEUIwKHbXhCN4QMygIegUIARDIAQ",
+                "universe": "StarWars Universe",
+                "strength": 77,
+                "defense": 85,
+                "agility": 78,
+                "will": 38,
+                "chance": 16
+            },
+            {
+                "character": "Luke Skywalker",
+                "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fcharacter-stats-and-profiles%2Fimages%2F1%2F1d%2FLuke_Skywalker_%2528Jedi_Knight%2529_%2528Glove.png%2Frevision%2Flatest%3Fcb%3D20181201201333&imgrefurl=https%3A%2F%2Fcharacter-stats-and-profiles.fandom.com%2Fwiki%2FLuke_Skywalker_(Canon%2C_Star_Wars)%2FAogiriKira&tbnid=FAE5ex-SWo5pZM&vet=12ahUKEwjG0fW25fX7AhWVNUQIHcbeDnMQMygBegUIARDkAQ..i&docid=nI8iSCNOMSCtqM&w=400&h=695&q=character%20Luke%20Skywalker&hl=en&ved=2ahUKEwjG0fW25fX7AhWVNUQIHcbeDnMQMygBegUIARDkAQ",
+                "universe": "StarWars Universe",
+                "strength": 92,
+                "defense": 80,
+                "agility": 77,
+                "will": 38,
+                "chance": 8
+            },
+            {
+                "character": "Qui-Gon Jinn",
+                "image": "",
+                "universe": "StarWars Universe",
+                "strength": 88,
+                "defense": 73,
+                "agility": 78,
+                "will": 45,
+                "chance": 18
+            },
+            {
+                "character": "Darth Maul",
+                "image": "",
+                "universe": "StarWars Universe",
+                "strength": 85,
+                "defense": 77,
+                "agility": 80,
+                "will": 25,
+                "chance": 10
+            },
+            {
+                "character": "Darth Bane",
+                "image": "",
+                "universe": "StarWars Universe",
+                "strength": 90,
+                "defense": 90,
+                "agility": 25,
+                "will": 20,
+                "chance": 20
+            },
+            {
+                "character": "Darth Plagueis",
+                "image": "",
+                "universe": "StarWars Universe",
+                "strength": 80,
+                "defense": 90,
+                "agility": 50,
+                "will": 45,
+                "chance": 14
+            },
+            {
+                "character": "Darth Vader",
+                "image": "",
+                "universe": "StarWars Universe",
+                "strength": 95,
+                "defense": 85,
+                "agility": 65,
+                "will": 30,
+                "chance": 14
+            },
+            {
+                "character": "Darth Revan",
+                "image": "",
+                "universe": "StarWars Universe",
+                "strength": 88,
+                "defense": 78,
+                "agility": 81,
+                "will": 38,
+                "chance": 12
+            }
+        ]
+    },
+    {
+        "name": "Naruto",
+        "fighters": [
+            {
+                "character": "Naruto",
+                "image": "",
+                "universe": "Naruto Universe",
+                "strength": 98,
+                "defense": 88,
+                "agility": 77,
+                "will": 50,
+                "chance": 3
+            },
+            {
+                "character": "Jiraya",
+                "image": "",
+                "universe": "Naruto Universe",
+                "strength": 90,
+                "defense": 82,
+                "agility": 77,
+                "will": 40,
+                "chance": 16
+            },
+            {
+                "character": "Rock Lee",
+                "image": "",
+                "universe": "Naruto Universe",
+                "strength": 76,
+                "defense": 83,
+                "agility": 90,
+                "will": 45,
+                "chance": 15
+            },
+            {
+                "character": "Neji",
+                "image": "",
+                "universe": "Naruto Universe",
+                "strength": 84,
+                "defense": 88,
+                "agility": 75,
+                "will": 40,
+                "chance": 20
+            },
+            {
+                "character": "Kakashi",
+                "image": "",
+                "universe": "Naruto Universe",
+                "strength": 88,
+                "defense": 80,
+                "agility": 85,
+                "will": 47,
+                "chance": 16
+            },
+            {
+                "character": "Madara",
+                "image": "",
+                "universe": "Naruto Universe",
+                "strength": 89,
+                "defense": 85,
+                "agility": 76,
+                "will": 50,
+                "chance": 8
+            },
+            {
+                "character": "Itachi",
+                "image": "",
+                "universe": "Naruto Universe",
+                "strength": 83,
+                "defense": 90,
+                "agility": 87,
+                "will": 36,
+                "chance": 15
+            },
+            {
+                "character": "Sasori",
+                "image": "",
+                "universe": "Naruto Universe",
+                "strength": 88,
+                "defense": 88,
+                "agility": 77,
+                "will": 40,
+                "chance": 10
+            },
+            {
+                "character": "Pain",
+                "image": "",
+                "universe": "Naruto Universe",
+                "strength": 95,
+                "defense": 88,
+                "agility": 75,
+                "will": 30,
+                "chance": 12
+            },
+            {
+                "character": "Orochimaru",
+                "image": "",
+                "universe": "Naruto Universe",
+                "strength": 88,
+                "defense": 80,
+                "agility": 77,
+                "will": 40,
+                "chance": 13
+            }
+        ]
     }
 ]

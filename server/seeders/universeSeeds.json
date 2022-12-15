@@ -1,0 +1,27 @@
+[
+    {
+       "universe":"Marvel Universe",
+        "description":"This is Marvel description",
+        "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fhyperpix.net%2Fwp-content%2Fuploads%2F2019%2F08%2Fmarvel-logo-font-download-1200x679.jpg&imgrefurl=https%3A%2F%2Fhyperpix.net%2Ffonts%2Fmarvel-font%2F&tbnid=z4eoKuBAjWMLjM&vet=12ahUKEwiKm56W9fT7AhWEiI4IHWUkC1gQMygGegUIARDsAQ..i&docid=NF2w1uuXfZgThM&w=1200&h=679&q=marvel%20title&ved=2ahUKEwiKm56W9fT7AhWEiI4IHWUkC1gQMygGegUIARDsAQ" 
+    },
+    {
+        "universe":"DC Universe",
+        "description": "This is the DC description",
+        "image":"https://www.google.com/imgres?imgurl=https%3A%2F%2F1000logos.net%2Fwp-content%2Fuploads%2F2017%2F01%2FDC-Comics-Logo-2005.png&imgrefurl=https%3A%2F%2F1000logos.net%2Fdc-comics-logo%2F&tbnid=P8TivuRLfHtESM&vet=12ahUKEwiu3piW4vX7AhUwB0QIHZtJBmcQMygCegUIARDhAQ..i&docid=65Lr-Ty2WJFlTM&w=3840&h=2160&q=DC%20comics%20logo&hl=en&ved=2ahUKEwiu3piW4vX7AhUwB0QIHZtJBmcQMygCegUIARDhAQ"
+    },
+    {
+        "universe": "StarWars Universe",
+        "description": "This is the StarWars description",
+        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fb6%2Faf%2F5a%2Fb6af5aeff0ee43a4253fc70c167bb6db.png&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F517773288402977334%2F&tbnid=0cNrWVa_nlpzfM&vet=12ahUKEwi-0Neh4vX7AhU2CUQIHaCHBnUQMygHegUIARD1AQ..i&docid=frnRDWiyYqukrM&w=400&h=300&q=Star%20wars%20logo&hl=en&ved=2ahUKEwi-0Neh4vX7AhU2CUQIHaCHBnUQMygHegUIARD1AQ"
+    },
+    {
+        "universe": "Naruto Universe",
+        "description": " This is the Naruto description",
+        "Image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fc9%2FNaruto_logo.svg%2F1280px-Naruto_logo.svg.png&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ANaruto_logo.svg&tbnid=4HEv-rXfKlFRBM&vet=12ahUKEwi7k6u84vX7AhWoBkQIHVMfBnEQMygAegUIARDhAQ..i&docid=fV38d9wmbCQwKM&w=1280&h=545&q=Naruto%20logo&hl=en&ved=2ahUKEwi7k6u84vX7AhWoBkQIHVMfBnEQMygAegUIARDhAQ"
+    }
+
+]
+
+
+
+    

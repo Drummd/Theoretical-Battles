@@ -1,3 +1,4 @@
 const User = require('./User');
-const Universe = require('./Universe')
-module.exports = { User, Universe };
+const Fighter = require('./Fighter')
+
+module.exports = { User, Fighter };

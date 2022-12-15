@@ -1,31 +1,53 @@
 //Fighter Schema to the Universe Model
-const { Schema } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
+const bcrypt = require('bcrypt');
+
 
 const fighterSchema = new Schema({
     name: {
         type: String,
         required: true
     },
-    strength: {
-        type: Number,
-        required: true
-    },
-    defense: {
-        type: Number,
-        required: true
-    },
-    agility: {
-        type: Number,
-        required: true
-    },
-    will: {
-        type: Number,
-        required: true
-    },
-    chance: {
-        type: Number,
-        required: true
-    }
-})
+    fighters: [{
+        fighterId: {
+            type: Schema.Types.ObjectId,
+            default: () => new Types.ObjectId()
+        },
+        image: {
+            type: String
+        },
+        universe: {
+            type: String
+        },
+        character: {
+            type: String
+        },
+        strength: {
+            type: Number,
+            required: true
+        },
+        defense: {
+            type: Number,
+            required: true
+        },
+        agility: {
+            type: Number,
+            required: true
+        },
+        will: {
+            type: Number,
+            required: true
+        },
+        chance: {
+            type: Number,
+            required: true
+        }
 
-module.exports = fighterSchema;
+    }]
+
+
+}, {
+    _id:false
+})
+const Fighter = model('Fighter', fighterSchema);
+module.exports = Fighter;

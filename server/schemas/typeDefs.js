@@ -12,9 +12,31 @@ const typeDefs = gql`
 		user: User
 	}
 
+	
+
+	type Fighter {
+		fighterId: ID
+		image: String
+		character: String
+		universe: String
+		strength: Int
+		defense: Int
+		agility: Int
+		will: Int
+		chance: Int
+		
+	}
+
+	type Universe {
+		name: String
+		fighters: [Fighter]
+	}
+
 	type Query {
 		users: [User]
 		me: User
+		
+		getFighters(name: String!): Universe
 	}
 
 	type Mutation {
@@ -23,3 +45,9 @@ const typeDefs = gql`
 `;
 
 module.exports = typeDefs;
+// type Universe {
+// 		_id: ID
+// 		name: String
+// 		description: String
+		
+// 	}
