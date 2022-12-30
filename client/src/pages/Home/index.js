@@ -16,6 +16,7 @@ import UniverseCard from '../../components/UniverseCard';
 import FighterCards from '../../components/FightersCards';
 import BattleCards from '../../components/BattleCards';
 import LoginForm from '../../components/LoginForm/Login';
+import auth from "../../utils/auth"
 
 function Home() {
   const navigate = useNavigate()
@@ -56,7 +57,7 @@ function Home() {
     },
   ];
 
-  console.log(data)
+  console.log("query_universes data", data)
   const fighters = data?.fighters || [];
   const dcFighters = fighters.filter(universe => universe.name === 'DC')[0];
   const marvelFighters = fighters.filter(universe => universe.name === 'Marvel')[0];
@@ -83,12 +84,12 @@ function Home() {
     });
     console.log(filteredFighters[0].fighters);
     // filter based on which universe was clicked
-    navigate("/Universe", { state: { fighters: filteredFighters[0].fighters } })
+    navigate("/universe", { state: { fighters: filteredFighters[0].fighters } })
   }
 
   const renderUniverseOrFighter = () => {
 
-    if (LoginForm) {
+    if (!auth.loggedIn()) {
       return <LoginForm />
     } else if (!universe1) {
       return universeData.map(universe => <UniverseCard title={universe.title} description={universe.description} image={universe.image} updateState={setUniverse1} />);
@@ -106,15 +107,15 @@ function Home() {
   }
 
   return (
-    <fragment className="card-line">
-      <div class="card-group">
+    <div className="card-line">
+      <div className="card-group">
 
         {loading ? (<div>Loading...</div>) : renderUniverseOrFighter()}
 
 
       </div>
 
-    </fragment>
+    </div>
   );
 
 }

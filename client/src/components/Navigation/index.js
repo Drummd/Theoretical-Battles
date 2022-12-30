@@ -4,13 +4,14 @@ import Logo from "../../assets/104093148.png";
 import Navbar from './Navbar'
 //import { Nav, Navbar, NavLink } from 'react-bootstrap';
 
-
+// this is really just a HEADER
 function Navigation() {
 	return (
 		<nav>
-			<div class="jumbotron">
-				<img id="logo-main" src={Logo} />
-				{Navbar}
+			<div className="jumbotron">
+				<img id="logo-main" src={Logo} />\
+				{/* ????? */}
+				{/* {Navbar} */}
 				<p className="lead"> In this place, powerful beings from different worlds can clash and test their strength against one another, with the outcome of these battles shaping the fate of the multiverse.</p>
 				
 			

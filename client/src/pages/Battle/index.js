@@ -38,12 +38,12 @@ function Battle() {
 
   return (
     <container className='grid-container'>
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
+      <div className="flip-card">
+        <div className="flip-card-inner">
+          <div className="flip-card-front">
             <img src={Annie} alt="Fighter1" className='flip-image' />
           </div>
-          <div class="flip-card-back">
+          <div className="flip-card-back">
             <h1>Fighter1</h1>
             <p>Universe name</p>
             <p>Strength</p>
@@ -65,12 +65,12 @@ function Battle() {
 
 
 
-      <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
+      <div className="flip-card">
+        <div className="flip-card-inner">
+          <div className="flip-card-front">
             <img src={Toe} alt="Fighter2" className='flip-image' />
           </div>
-          <div class="flip-card-back">
+          <div className="flip-card-back">
             <h1>Fighter2</h1>
             <p>Universe name</p>
             <p>Strength</p>
