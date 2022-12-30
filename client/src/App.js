@@ -14,7 +14,7 @@ import Universe from './pages/Universe'
 import Battle from './pages/Battle'
 import Footer from './pages/Footer'
 import LoginForm from './components/LoginForm/Login'
-import SignupForm from './components/Signup'
+import SignupForm from './components/SignupForm'
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -47,6 +47,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<LoginForm />} />
+            <Route path="/signup" element={<SignupForm/>} />
             <Route path="/universe" element={<Universe />} />
             <Route path="/battle" element={<Battle />} />
             <Route path="*" element={<h1>Wrong page!</h1>} />

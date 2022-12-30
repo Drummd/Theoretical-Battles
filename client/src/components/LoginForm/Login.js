@@ -92,6 +92,7 @@ const LoginForm = () => {
           Submit
         </Button>
       </Form>
+      <Link to="/signup">Signup Instead</Link>
     </>
   );
 };
