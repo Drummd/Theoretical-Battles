@@ -1,0 +1,40 @@
+#logo-main {
+    display: block;
+    margin: 10px 10px;
+    width: 18%;
+    border-radius: 5px 50px 30px  5px;
+    right: 12%;
+}
+ p {
+    font-size: large;
+    color: black;
+    font: bold;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ }
+
+.btn {
+    display:inline-block;
+    border-radius: 0.4rem;
+    border: 1px solid rgb(23, 15, 15);
+    padding: 5px;
+    background-color: green;
+}
+.jumbotron {
+    background-color: #ef8851;
+    width: 100%;
+}
+#navbarScroll {
+    color:rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    justify-content: space-evenly;
+    /* transition:cubic-bezier(1, 0, 0, 1); */
+
+}
+section {
+    display:grid;
+    padding: auto;
+    align-items: center;
+}

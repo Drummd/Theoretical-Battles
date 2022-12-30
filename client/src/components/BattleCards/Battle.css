@@ -1,0 +1,79 @@
+.flip-card {
+    display: flex;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    border-radius: 15px 50px;
+   
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: 5fr 0fr 5fr ;
+    justify-items: center !important;
+    padding-top: 20px ;
+    
+  }
+  
+  .vs-display {
+    font-size: 175px;
+    font-weight: 900;
+    color:#ef8851;
+    text-shadow: 3px 3px 3px red, 6px 6px 6px red;
+    border: transparent;
+    background-color: transparent;
+  }
+
+  .vs-display:hover {
+    text-shadow: 8px 8px 8px red, 7px 7px 7px red;
+    font-size: 190px;
+  }
+  
+  .flip-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover !important;
+    border-radius: 15px 50px;
+  }
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    border-radius: 15px 50px;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: #ef8851;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  a:hover {
+    color: #e35305 !important;
+  }
