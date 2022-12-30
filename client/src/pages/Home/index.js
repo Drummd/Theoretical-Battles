@@ -16,6 +16,7 @@ import UniverseCard from '../../components/UniverseCard';
 import FighterCards from '../../components/FightersCards';
 import BattleCards from '../../components/BattleCards';
 import LoginForm from '../../components/LoginForm/Login';
+import auth from "../../utils/auth"
 
 function Home() {
   const navigate = useNavigate()
@@ -88,7 +89,7 @@ function Home() {
 
   const renderUniverseOrFighter = () => {
 
-    if (LoginForm) {
+    if (!auth.loggedIn()) {
       return <LoginForm />
     } else if (!universe1) {
       return universeData.map(universe => <UniverseCard title={universe.title} description={universe.description} image={universe.image} updateState={setUniverse1} />);

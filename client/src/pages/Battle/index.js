@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 //import './Battle.css'
-import Annie from '../../assets/Anakin.jpg'
-import Toe from '../../assets/Wolverine.jpg'
+//import Annie from '../../assets/Anakin.jpg'
+//import Toe from '../../assets/Wolverine.jpg'
 //<a href="#" onclick="someFunction(); return false;">LINK</a> 
 
 
@@ -41,7 +41,7 @@ function Battle() {
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src={Annie} alt="Fighter1" className='flip-image' />
+            <img src="" alt="Fighter1" className='flip-image' />
           </div>
           <div class="flip-card-back">
             <h1>Fighter1</h1>
@@ -68,7 +68,7 @@ function Battle() {
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <img src={Toe} alt="Fighter2" className='flip-image' />
+            <img src="" alt="Fighter2" className='flip-image' />
           </div>
           <div class="flip-card-back">
             <h1>Fighter2</h1>

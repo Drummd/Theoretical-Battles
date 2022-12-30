@@ -39,7 +39,7 @@ function Universe({data}) {
 
 
 	return (
-		<fragment className="body-universe">
+		<div className="body-universe">
 			
 
 			<Row xs={1} md={5} className="g-5">
@@ -48,7 +48,7 @@ function Universe({data}) {
 						<Card>
 							<Card.Img variant="top" src={fighter.image}/>
 							<Card.Body>
-								<Card.Title value={"fighter1"}value={"fighter2"}>{fighter.character}</Card.Title>
+								<Card.Title>{fighter.character}</Card.Title>
 								<Card.Text>
 									<ul>
 										<li>Strength:{fighter.strength} </li>
@@ -65,7 +65,7 @@ function Universe({data}) {
 					</Col>
 				))}
 			</Row>
-		</fragment>
+		</div>
 	);
 }
 export default Universe;

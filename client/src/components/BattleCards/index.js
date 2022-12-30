@@ -15,13 +15,13 @@ function BattleCards({ fighter1, fighter2 }) {
 
 
     return (
-        <fragment className='grid-container'>
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
+        <div className='grid-container'>
+            <div className="flip-card">
+                <div className="flip-card-inner">
+                    <div className="flip-card-front">
                         <img src={''} alt="Fighter1" className='flip-image' />
                     </div>
-                    <div class="flip-card-back"  >
+                    <div className="flip-card-back"  >
                         <h1>{fighter1.character}</h1>
                         <h2>{fighter1.name}</h2>
                         <p>Strength: {fighter1.strength}</p>
@@ -37,12 +37,12 @@ function BattleCards({ fighter1, fighter2 }) {
 
             <button href='#' type="button" onClick={handleClick} className='vs-display'>vs</button>
 
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
+            <div className="flip-card">
+                <div className="flip-card-inner">
+                    <div className="flip-card-front">
                         <img src={''} alt="Fighter2" className='flip-image' />
                     </div>
-                    <div class="flip-card-back" >
+                    <div className="flip-card-back" >
                         <h1>{fighter2.character}</h1>
                         <p>{fighter2.name}</p>
                         <p>Strength: {fighter2.strength}</p>
@@ -55,7 +55,7 @@ function BattleCards({ fighter1, fighter2 }) {
             </div>
 
 
-        </fragment>
+        </div>
 
     )
 }

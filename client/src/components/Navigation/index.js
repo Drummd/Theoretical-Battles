@@ -10,7 +10,7 @@ function Navigation() {
 		<nav>
 			<div class="jumbotron">
 				<img id="logo-main" src={Logo} />
-				{Navbar}
+				{/* {Navbar} */}
 				<p className="lead"> In this place, powerful beings from different worlds can clash and test their strength against one another, with the outcome of these battles shaping the fate of the multiverse.</p>
 				
 			

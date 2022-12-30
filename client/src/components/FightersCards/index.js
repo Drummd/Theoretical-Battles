@@ -19,7 +19,7 @@ function FighterCards({ fighters, updateState }) {
 
                 {fighters.fighters.map(fighter => {
                     return (
-                        <fragment className="body-universe">
+                        <div className="body-universe">
                             <Row>
                                 <Col>
                                     <Card>
@@ -41,7 +41,7 @@ function FighterCards({ fighters, updateState }) {
                                     </Card>
                                 </Col>
                             </Row>
-                        </fragment>
+                        </div>
                     );
                 })}
             </Row>
