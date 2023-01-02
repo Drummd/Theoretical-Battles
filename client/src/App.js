@@ -51,10 +51,13 @@ function App() {
             <Route path="/universe" element={<Universe />} />
             <Route path="/battle" element={<Battle />} />
             <Route path="*" element={<h1>Wrong page!</h1>} />
+
           </Routes>
           <Footer />
+
         </>
       </Router>
+      <Footer />
     </ApolloProvider>
   )
 }

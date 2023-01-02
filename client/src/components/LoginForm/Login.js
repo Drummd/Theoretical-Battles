@@ -6,7 +6,9 @@ import { useMutation } from '@apollo/client';
 // Imports the LOGIN_USER mutation from the mutations.js file in the client side utils folder
 import { LOGIN_USER } from '../../utils/mutations';
 import Auth from '../../utils/auth';
-import { Link } from "react-router-dom"
+
+import {Link} from "react-router-dom"
+
 
 const LoginForm = () => {
   const [userFormData, setUserFormData] = useState({ email: '', password: '' });

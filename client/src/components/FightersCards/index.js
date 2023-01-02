@@ -26,7 +26,7 @@ function FighterCards({ fighters, updateState }) {
                                         <Card.Img variant="top" src={fighter.image} />
                                         <Card.Body>
                                             <Card.Title>{fighter.character}</Card.Title>
-                                            <Card.Text>
+                                            <Card.Body>
                                                 <ul>
                                                     <li>Strength:{fighter.strength} </li>
                                                     <li>Defense: {fighter.defense}</li>
@@ -35,7 +35,7 @@ function FighterCards({ fighters, updateState }) {
                                                     <li>Willpower:{fighter.will} </li>
 
                                                 </ul>
-                                            </Card.Text>
+                                            </Card.Body>
                                             <Button onClick={() => updateState(fighter)} variant="danger">Fighter</Button>
                                         </Card.Body>
                                     </Card>

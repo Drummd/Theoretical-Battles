@@ -1,1 +1,6 @@
 /* Put CSS resets in here, such as ul { margin: 0 } */
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
