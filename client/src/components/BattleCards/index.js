@@ -1,22 +1,23 @@
 import './Battle.css'
 
 function BattleCards({ fighter1, fighter2 }) {
-    console.log("battle cards")
-    console.log(fighter1, fighter2);
 
-    // const fighter = [fighter1, fighter2];
 
-    const handleClick = (fighter1) => {
-        if(fighter1 === [])
-        return (
-            <h1> {fighter1.character} is the winner!</h1>
-        )
+
+
+    const handleClick = () => {
+      if (fighter1.strength > fighter2.strength) {
+        alert(fighter1.character + " wins!")
+      } else {
+        alert(fighter2.character + " wins!")
+      }
         
     }
 
 
     return (
         <div className='grid-container'>
+        
             <div className="flip-card">
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
@@ -36,7 +37,7 @@ function BattleCards({ fighter1, fighter2 }) {
                 </div>
             </div>
 
-            <button href='#' type="button" onClick={handleClick} className='vs-display'>vs</button>
+            <button onClick={handleClick} className='vs-display'>vs</button>
 
             <div className="flip-card">
                 <div className="flip-card-inner">
