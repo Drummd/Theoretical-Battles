@@ -16,7 +16,7 @@ function Navigation() {
 	return (
 		<nav>
 			<div className="jumbotron">
-				<div className=''>
+				<div className=' d-flex justify-content-end pe-4 pt-1'>
 				{Auth.loggedIn() && (<a className="" href="/" onClick={logout}>
                 Logout
               </a>)}
