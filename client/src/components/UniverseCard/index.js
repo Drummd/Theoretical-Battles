@@ -3,7 +3,7 @@ import './Universe.css'
 
 function UniverseCard({ title, description, image, updateState }) {
     return (
-        <div className="card">
+        <div className="card mx-2">
           <img className="card-img" src={image} alt="Card" />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>

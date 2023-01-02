@@ -16,7 +16,7 @@ function Footer() {
                 <a href="https://stackoverflow.com/users/19277759/dalton-drumm" target='_blank'> <BsStackOverflow/> </a>
             </div>
 
-            <div className="footer_copyright">
+            <div className="">
                 <small>Dalton Drumm</small>
             </div>
         </footer>

@@ -1,25 +1,20 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import { useNavigate } from 'react-router-dom';
+
 import "./home.css"
 import DC from '../../assets/DC.png'
 import MAR from '../../assets/Marvel.png'
 import STA from '../../assets/Starwars.jpg'
 import NAR from '../../assets/Naruto.jpg'
-//import { useQuery } from '@apollo/client'
-//import { QUERY_Universe } from '../../utils/queries'
 import { useQuery } from '@apollo/client'
 import { QUERY_Universes } from '../../utils/queries'
-//import { useLazyQuery } from '@apollo/client';
 import UniverseCard from '../../components/UniverseCard';
-// import Universe from '../Universe';
 import FighterCards from '../../components/FightersCards';
 import BattleCards from '../../components/BattleCards';
 import LoginForm from '../../components/LoginForm/Login';
 import auth from "../../utils/auth"
 
 function Home() {
-  const navigate = useNavigate()
+
   const { data, loading } = useQuery(QUERY_Universes);
 
   const [universe1, setUniverse1] = useState('');
@@ -66,22 +61,7 @@ function Home() {
     'Naruto': narutoFighters
   };
 
-  // console.log("fighters obj", dcFighters);
 
-  //const universes = data?.universes || [];
-  // const [getFighters, {loading, data, error} ] = useLazyQuery(QUERY_Fighters);
-
-  // function handleSubmit(e) {
-  //   e.preventDefault()
-  //   // getFighters({variables: {name: e.target.value}})
-  //   console.log(fighters)
-  //   const filteredFighters = fighters.filter(universe => {
-  //     return universe.name === e.target.value;
-  //   });
-  //   console.log(filteredFighters[0].fighters);
-  //   // filter based on which universe was clicked
-  //   navigate("/universe", { state: { fighters: filteredFighters[0].fighters } })
-  // }
 
   const renderUniverseOrFighter = () => {
 
@@ -117,44 +97,3 @@ function Home() {
 }
 export default Home;
 
-// {/* {loading && (
-//       <div>loading...</div>
-//      )} */}
-// 		<Row xs={1} md={4} className="g-4">
-//       {universes.map((universe) => ( 
-//         <Col>
-//           <Card>
-//             <Card.Img variant="top" src={universe.image} />
-//             <Card.Body>
-//               <Card.Title>{universe.title}</Card.Title>
-//               <Card.Text>
-//                 { universe.description}
-//               </Card.Text>
-//{/* <div>
-//<Link to="/Universe">
-//<Button variant="danger">Universe</Button>
-// </Link>
-//</div> */}
-
-//             </Card.Body>
-//           </Card>
-//         </Col>
-//       ))}
-//     </Row>
-
-
-
-
-
-// <>
-// 	<Card className='card_format' style={{ width: '18rem' }}>
-// 		<Card.Img variant="top" src="holder.js/100px180" />
-// 		<Card.Body>
-// 			<Card.Title>Universe Name</Card.Title>
-// 			<Card.Text>
-// 				open chat ai to describe each universe as fighters
-// 			</Card.Text>
-// 			<Button variant="danger">Universe</Button>
-// 		</Card.Body>
-// 	</Card>
-// </>
