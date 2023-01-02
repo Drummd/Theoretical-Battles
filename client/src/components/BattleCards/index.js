@@ -12,10 +12,9 @@ function BattleCards({ fighter1, fighter2 }) {
 
     const handleClick = () => {
       if (fighter1.strength > fighter2.strength) {
-        // alert(fighter1.character + " wins!")
+      
         navigate("/battle", {state: {winner: fighter1}})
-      } else {
-        // alert(fighter2.character + " wins!")
+      } else {   
         navigate("/battle", {state: {winner: fighter2}})
       }
     }
