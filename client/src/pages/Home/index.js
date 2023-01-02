@@ -21,12 +21,7 @@ import auth from "../../utils/auth"
 function Home() {
   const navigate = useNavigate()
   const { data, loading } = useQuery(QUERY_Universes);
-  // const [battleObj, setBattleObj] = useState({
-  //   universe1: '',
-  //   universe2: '',
-  //   fighter1: '',
-  //   fighter2: ''
-  // });
+
   const [universe1, setUniverse1] = useState('');
   const [fighter1, setFighter1] = useState({});
   const [universe2, setUniverse2] = useState('');
@@ -72,21 +67,21 @@ function Home() {
   };
 
   // console.log("fighters obj", dcFighters);
-  
+
   //const universes = data?.universes || [];
   // const [getFighters, {loading, data, error} ] = useLazyQuery(QUERY_Fighters);
 
-  function handleSubmit(e) {
-    e.preventDefault()
-    // getFighters({variables: {name: e.target.value}})
-    console.log(fighters)
-    const filteredFighters = fighters.filter(universe => {
-      return universe.name === e.target.value;
-    });
-    console.log(filteredFighters[0].fighters);
-    // filter based on which universe was clicked
-    navigate("/universe", { state: { fighters: filteredFighters[0].fighters } })
-  }
+  // function handleSubmit(e) {
+  //   e.preventDefault()
+  //   // getFighters({variables: {name: e.target.value}})
+  //   console.log(fighters)
+  //   const filteredFighters = fighters.filter(universe => {
+  //     return universe.name === e.target.value;
+  //   });
+  //   console.log(filteredFighters[0].fighters);
+  //   // filter based on which universe was clicked
+  //   navigate("/universe", { state: { fighters: filteredFighters[0].fighters } })
+  // }
 
   const renderUniverseOrFighter = () => {
 
