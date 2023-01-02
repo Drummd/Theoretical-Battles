@@ -1,17 +1,23 @@
 import './Battle.css'
+import Battle from '../../pages/Battle'
+import { useNavigate } from 'react-router-dom'
+
+
 
 function BattleCards({ fighter1, fighter2 }) {
 
 
+    const navigate = useNavigate();
 
 
     const handleClick = () => {
       if (fighter1.strength > fighter2.strength) {
-        alert(fighter1.character + " wins!")
+        // alert(fighter1.character + " wins!")
+        navigate("/battle", {state: {winner: fighter1}})
       } else {
-        alert(fighter2.character + " wins!")
+        // alert(fighter2.character + " wins!")
+        navigate("/battle", {state: {winner: fighter2}})
       }
-        
     }
 
 
