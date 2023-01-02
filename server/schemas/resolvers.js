@@ -3,6 +3,8 @@ const { AuthenticationError } = require('apollo-server-express');
 const { User, Fighter} = require('../models');
 const { signToken } = require('../utils/auth');
 
+//Updated 
+
 const resolvers = {
 	Query: {
 		users: async () => {

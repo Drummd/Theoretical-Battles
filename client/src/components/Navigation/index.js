@@ -22,7 +22,7 @@ function Navigation() {
               </a>)}
 			</div>
 				<img id="logo-main" src={Logo} />
-		
+
 				{/* {Navbar} */}
 				<p className="lead"> In this place, powerful beings from different worlds can clash and test their strength against one another, with the outcome of these battles shaping the fate of the multiverse.</p>
 				

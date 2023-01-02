@@ -1,4 +1,6 @@
+
 import { useLocation } from 'react-router-dom'
+
 
 function Battle() {
   const location = useLocation()
@@ -6,6 +8,7 @@ function Battle() {
   console.log('winner', winner)
 
   return (
+
     <>
     <h2 className=''>The Winner Is:</h2>
     <div className="grid-container">
@@ -14,6 +17,8 @@ function Battle() {
         <div className="flip-card-inner">
           <div className="flip-card-front">
             <img src={winner.image} alt="winner" className="flip-image" />
+
+
           </div>
           <div className="flip-card-back">
             <h1>{winner.character}</h1>
