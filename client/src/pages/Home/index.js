@@ -71,7 +71,8 @@ function Home() {
     'Naruto': narutoFighters
   };
 
-  console.log(dcFighters);
+  // console.log("fighters obj", dcFighters);
+  
   //const universes = data?.universes || [];
   // const [getFighters, {loading, data, error} ] = useLazyQuery(QUERY_Fighters);
 

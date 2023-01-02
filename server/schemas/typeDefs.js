@@ -12,7 +12,6 @@ const typeDefs = gql`
 		user: User
 	}
 
-
 	type Fighter {
 		fighterId: ID
 		image: String
