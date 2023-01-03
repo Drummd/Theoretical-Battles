@@ -19,7 +19,7 @@ function BattleCards({ fighter1, fighter2 }) {
             <div className="flip-card">
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
-                        <img src={''} alt="Fighter1" className='flip-image' />
+                        <img src={fighter1.image} alt="Fighter1" className='flip-image' />
                     </div>
                     <div className="flip-card-back"  >
                         <h1>{fighter1.character}</h1>
@@ -40,7 +40,7 @@ function BattleCards({ fighter1, fighter2 }) {
             <div className="flip-card">
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
-                        <img src={''} alt="Fighter2" className='flip-image' />
+                        <img src={fighter2.image} alt="Fighter2" className='flip-image' />
                     </div>
                     <div className="flip-card-back" >
                         <h1>{fighter2.character}</h1>
