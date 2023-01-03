@@ -1,25 +1,34 @@
 import './Battle.css'
+import Battle from '../../pages/Battle'
+import { useNavigate } from 'react-router-dom'
+
+
 
 function BattleCards({ fighter1, fighter2 }) {
-    // console.log()
 
-    // const fighter = [fighter1, fighter2];
 
-    const handleClick = (fighter1) => {
-        if(fighter1 === [])
-        return (
-            <h1> {fighter1.character} is the winner!</h1>
-        )
-        
+    const navigate = useNavigate();
+
+
+    const handleClick = () => {
+      if (fighter1.strength > fighter2.strength) {
+      
+        navigate("/battle", {state: {winner: fighter1}})
+      } else {   
+        navigate("/battle", {state: {winner: fighter2}})
+      }
     }
 
 
     return (
         <div className='grid-container'>
+
+        
             <div className="flip-card">
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
                         <img src={fighter1.image} alt="Fighter1" className='flip-image' />
+
                     </div>
                     <div className="flip-card-back"  >
                         <h1>{fighter1.character}</h1>
@@ -35,12 +44,14 @@ function BattleCards({ fighter1, fighter2 }) {
                 </div>
             </div>
 
-            <button href='#' type="button" onClick={handleClick} className='vs-display'>vs</button>
+            <button onClick={handleClick} className='vs-display'>vs</button>
 
             <div className="flip-card">
                 <div className="flip-card-inner">
                     <div className="flip-card-front">
+
                         <img src={fighter2.image} alt="Fighter2" className='flip-image' />
+
                     </div>
                     <div className="flip-card-back" >
                         <h1>{fighter2.character}</h1>

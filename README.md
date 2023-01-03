@@ -4,7 +4,7 @@
    
   ## Description
 
- *** Theoretical Battles is app to have mutiple heros from various universes battle against eachother. ***
+ *** Theoretical Battles is an app htat has mutiple heros from various universes and the user can have heros and villains battle against eachother. ***
 
   ## Table of Contents
   * [Installation](#installation)
